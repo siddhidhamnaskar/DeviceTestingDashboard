@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "siddhi",
+    "password": "Siddhi@2000",
+    "database": "snackboss",
+    "host": "165.232.180.111",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "siddhi",
+    "password": "Siddhi@2000",
+    "database": "snackboss",
+    "host": "165.232.180.111",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "siddhi",
+    "password": "Siddhi@2000",
+    "database": "snackboss",
+    "host": "165.232.180.111",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+} 
