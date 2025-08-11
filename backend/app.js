@@ -4,7 +4,7 @@ const  bodyParser=require('body-parser');
 const  cors =require('cors');
 
 
-const kwikpayRouter=require("./routes/KwikPay/macAddress");
+
 const sendToMqttRouter=require("./routes/sendToMqtt");
 const mobivendRouter=require("./routes/mobivendRoute");
 const userRouter=require("./routes/userRutes");
@@ -16,7 +16,7 @@ const dashboardUserRouter=require("./routes/dashboardUser");
 
 
 dotenv.config();
-require('./helpers/socketServer');
+// require('./helpers/socketServer');
 // require('./src/helpers/trafficSocket');
 
 
@@ -35,7 +35,7 @@ app.use(
   }),
 );
 
-app.use('/kwikpay',kwikpayRouter);
+
 app.use('/mqtt',sendToMqttRouter);
 app.use('/mobivend',mobivendRouter);
 app.use('/users',userRouter);
