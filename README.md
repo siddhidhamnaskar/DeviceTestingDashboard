@@ -5,8 +5,8 @@ A full-stack IoT dashboard designed to monitor and test device health and connec
 ---
 
 ## 🚀 Live Demo
-- 🔗 Frontend: *Add Vercel or Netlify link here*
-- 🔗 Backend API: *Add Render or Railway link here*
+- 🔗 Frontend:[https://device-testing-dashboard.vercel.app/](https://device-testing-dashboard.vercel.app/)
+- 🔗 Backend API:[https://devicetestingdashboard.onrender.com/](https://devicetestingdashboard.onrender.com/)
 
 ---
 
